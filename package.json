@@ -1,0 +1,30 @@
+{
+  "name": "rockstar-social-club-clone-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelOkuchukwu/rockstar-social-club-clone-app.git"
+  },
+  "keywords": [
+    "new",
+    "rockstar",
+    "social",
+    "club",
+    "clone",
+    "mern",
+    "Stack",
+    "react.js",
+    "node.js"
+  ],
+  "author": "Emmanuel Okuchukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelOkuchukwu/rockstar-social-club-clone-app/issues"
+  },
+  "homepage": "https://github.com/EmmanuelOkuchukwu/rockstar-social-club-clone-app#readme"
+}
