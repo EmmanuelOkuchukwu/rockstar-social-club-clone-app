@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { DBURI } = require('./key');
+const { DBURI } = require('./keySecrets');
 
 const DbConnection = () => {
     mongoose.connect(DBURI)
