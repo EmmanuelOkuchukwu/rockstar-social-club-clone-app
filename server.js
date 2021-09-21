@@ -12,7 +12,10 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
+require('./model/user.model');
+
 app.use(express.json());
+require('./routes/auth.routes')(app);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/EmmanuelOkuchukwu/rockstar-social-club-clone-app#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
