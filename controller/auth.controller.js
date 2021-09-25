@@ -41,7 +41,7 @@ const login = (req, res) => {
             bcrypt.hash(password, savedUser.password)
                 .then(doMatch => {
                     if(doMatch) {
-                        const token = jwt.sign({ _id: savedUser._id }, JWT_SECRET, { expiresIn: '2d' })
+                        const token = jwt.sign({ user: savedUser }, JWT_SECRET, { expiresIn: '2d' })
                         const { nickname, fullName, email, dob, country } = savedUser;
                         res.json({ token, user: { nickname, fullName, email, dob, country }})
                     } else {
