@@ -20,36 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b181ac9a-8711-4572-bef2-0757ca730685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/7-character.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/Josiah-Tralawny-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/Rockstar-social-club-wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/abigail-sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/arthur-morgan-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/bully.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/events-characters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/gtaiv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/gtaiv_tbogt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/gtaiv_tlad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/gtav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/hosea-matthews-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/lan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/rdr2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/sc-card-snapmatic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/sc-card-stats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/sc-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/auth/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/auth/Register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/auth/loginStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/games.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/GlobalStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/auth.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +76,11 @@
       <workItem from="1632260820560" duration="13000" />
       <workItem from="1632290835487" duration="1175000" />
       <workItem from="1632423950647" duration="348000" />
-      <workItem from="1632566286470" duration="7459000" />
+      <workItem from="1632566286470" duration="7729000" />
+      <workItem from="1632601285845" duration="13000" />
+      <workItem from="1632604985869" duration="149000" />
+      <workItem from="1632605718384" duration="1244000" />
+      <workItem from="1632672932581" duration="1217000" />
     </task>
     <servers />
   </component>
