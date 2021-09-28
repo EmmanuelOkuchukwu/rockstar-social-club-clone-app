@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b181ac9a-8711-4572-bef2-0757ca730685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/app/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/react-key.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/auth/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/auth/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/auth/loginStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/auth/loginStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
