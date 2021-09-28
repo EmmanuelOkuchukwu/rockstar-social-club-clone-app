@@ -61,6 +61,7 @@ export const SigninContainer = styled.div`
         background: linear-gradient(90deg,#f7931e,#fcaf17);
         font-size: 15px;
         color: #fff;
+        cursor: pointer;
         &:hover {
             background-color: #fcaf17;
         }

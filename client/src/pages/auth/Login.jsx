@@ -11,7 +11,7 @@ const Login = () => {
     return(
         <>
             <SigninContainer>
-                <div className="signin-section" style={{backgroundColor: "white"}}>
+                <div className="signin-section">
                     <h2>Sign in with Social Club</h2>
                     <input type="text" name="email" placeholder="Email"/>
                     <input type="password" name="password" placeholder="Password"/>
