@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b181ac9a-8711-4572-bef2-0757ca730685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/pages/feed/MainFeed.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/feed/mainFeedStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/authJwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/user.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/auth/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/auth/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/service/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/service/authService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/feed/MainFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/feed/MainFeed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/feed/mainFeedStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/feed/mainFeedStyles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +82,8 @@
       <workItem from="1632604985869" duration="149000" />
       <workItem from="1632605718384" duration="1244000" />
       <workItem from="1632672932581" duration="1217000" />
-      <workItem from="1632903574946" duration="7333000" />
+      <workItem from="1632903574946" duration="7580000" />
+      <workItem from="1632921052693" duration="1411000" />
     </task>
     <servers />
   </component>
