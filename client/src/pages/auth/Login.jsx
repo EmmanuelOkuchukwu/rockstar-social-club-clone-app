@@ -34,7 +34,7 @@ const Login = () => {
     }
     if(AuthService.getUserInfo()) {
         if(user) {
-            return <Redirect to={{ path: `/feed/${user.user.nickname}`}} />
+            return <Redirect to={{ pathname: `/feed/${user.user.nickname}`}} />
         }
     }
     return(
