@@ -10,12 +10,22 @@ function onLogin(formData) {
     })
         .then((response) => {
             if(response.data.token) {
-                localStorage.setItem('token', response.data)
+               localStorage.setItem('user', JSON.stringify(response.data));
             }
             return response.data;
         })
 }
 
+function onLogout(){
+    localStorage.clear();
+}
+
+function getUserInfo() {
+    return JSON.parse(localStorage.getItem('user'));
+}
+
 export const AuthService = {
-    onLogin
+    onLogin,
+    onLogout,
+    getUserInfo
 }

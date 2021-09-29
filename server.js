@@ -8,7 +8,7 @@ const PORT = 8081;
 DbConnection();
 
 const corsOptions = {
-    origin: 'http://localhost:3000/'
+    origin: 'http://localhost:3000'
 }
 app.use(cors(corsOptions));
 
@@ -16,6 +16,7 @@ require('./model/user.model');
 
 app.use(express.json());
 require('./routes/auth.routes')(app);
+require('./routes/user.routes')(app);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
