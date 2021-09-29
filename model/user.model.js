@@ -25,6 +25,10 @@ const userSchema = new mongoose.Schema({
         required: true,
         type: String
     },
+    pic: {
+      type: String,
+      default: 'https://res.cloudinary.com/emmanuel-cloud-storage/image/upload/v1632937686/Josiah-Tralawny-icon_mpuhb7.png'
+    },
     memberSince: {
         default: Date.now(),
         type: Date,

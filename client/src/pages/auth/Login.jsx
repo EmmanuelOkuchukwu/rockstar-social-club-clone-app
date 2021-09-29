@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { SigninContainer } from './loginStyles';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Redirect } from 'react-router-dom';
 import { AuthService } from '../../service/authService';
 
 const Login = () => {
@@ -10,6 +10,7 @@ const Login = () => {
     }
     const [loginDetails, setLoginDetails] = useState(initialValues);
     const [username, setUsername] = useState(AuthService.getUserInfo());
+    const user = (username) ? username : AuthService.getUserInfo()
     const history = useHistory();
     function handleChange(evt) {
         const { name, value } = evt.target;
@@ -30,6 +31,11 @@ const Login = () => {
                 }
             })
             .catch(error => console.log(error));
+    }
+    if(AuthService.getUserInfo()) {
+        if(user) {
+            return <Redirect to={{ path: `/feed/${user.user.nickname}`}} />
+        }
     }
     return(
         <>
